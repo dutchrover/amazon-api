@@ -12,6 +12,7 @@ if __name__ == "__main__":
     # get_orders(LastUpdatedAfter)
 
     print(get_inventory(**{
-        "details": True,
-        "marketplaceIds": ["A2Q3Y263D00KWC"]
+        "details": False,
+        "marketplaceIds": ["ATVPDKIKX0DER"],
+        "startDateTime": (datetime.now() - timedelta(days=1)).isoformat()
     }))

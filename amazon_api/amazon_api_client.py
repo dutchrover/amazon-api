@@ -10,6 +10,7 @@ def load_all_orders(**kwargs):
     a generator function to return all pages, obtained by NextToken
     """
     return Orders().get_orders(**kwargs)
-()
+
+
 def get_inventory(**kwargs):
     return Inventories().get_inventory_summary_marketplace(**kwargs)
