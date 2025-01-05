@@ -16,4 +16,4 @@ default:
 ## Running
 * Clone the project to your local machine
 * Run `poetry install` to install the dependencies (you may need to install [poetry](https://python-poetry.org/docs/) first)
-* Run `poetry run python main.py` to run the project
+* Run `poetry run python main.py' to run the project
